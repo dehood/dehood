@@ -39,9 +39,6 @@ class About extends Me
 }
 ```
 
-## Here are some of my live statistics
-#### I am tracking my most used languages daily:
-![My Code::Stats history graph](https://codestats-readme.wegfan.cn/history-graph/dehood?history_days=14&height=210&?max_languages=10)
 #### My GitHub stats:
 ![Robert's github stats](https://github-readme-stats.vercel.app/api?username=dehood&count_private=true&show_icons=true&theme=synthwave)
 
