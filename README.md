@@ -2,7 +2,6 @@
 </h2>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Robert_Račkauskas-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robertrackauskas/)](https://www.linkedin.com/in/robertrackauskas/)
-[![Twitter Badge](https://img.shields.io/badge/-TheDehood-1ca0f1?style=flat&logo=twitter&logoColor=white&link=https://twitter.com/TheDehood)](https://twitter.com/TheDehood)
 
 ```php
 <?php
