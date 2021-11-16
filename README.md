@@ -12,10 +12,7 @@ namespace RobertRackauskas;
 
 class About extends Me
 {
-    use HasDigitalDesignerDiploma,
-        PlaysVideoGames,
-        LikesMotorcycles,
-        LovesSpaceX;
+    use HasDigitalDesignerDiploma, PlaysVideoGames, LikesMotorcycles, LovesSpaceX;
 
     public function getCurrentWorkplace(): array
     {
