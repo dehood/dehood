@@ -17,7 +17,7 @@ class About extends Me
         LikesMotorcycles,
         LovesSpaceX;
 
-    public function getCurrentWorkplace()
+    public function getCurrentWorkplace(): array
     {
         return [
             'workplace' => [
@@ -27,7 +27,7 @@ class About extends Me
         ];
     }
 
-    public function getDailyKnowledge()
+    public function getDailyKnowledge(): array
     {
         return [
             Php::class,
