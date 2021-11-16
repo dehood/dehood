@@ -3,6 +3,8 @@
 
 [![Linkedin Badge](https://img.shields.io/badge/-Robert_Račkauskas-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robertrackauskas/)](https://www.linkedin.com/in/robertrackauskas/)
 
+<h3>A bit about me:</h3>
+
 ```php
 <?php
 
@@ -20,7 +22,7 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'TitanHQ',
-                'position' => 'Software Engineer'
+                'position' => 'Senior Software Engineer'
             ]
         ];
     }
@@ -32,7 +34,7 @@ class About extends Me
             Laravel::class,
             Vuejs::class,
             JavaScript::class,
-            Angular::class,
+            //Angular::class,
         ];
     }
 }
