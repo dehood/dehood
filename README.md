@@ -10,16 +10,19 @@
 
 namespace RobertRackauskas;
 
+use World\Humans\Jobs;
+
 class About extends Me
 {
-    use HasDigitalDesignerDiploma, PlaysVideoGames, LikesMotorcycles, LovesSpaceX;
+    use HasDigitalDesignerDiploma, LikesMotorcycles, LovesHomeAssistant, LinuxUser;
 
     public function getCurrentWorkplace(): array
     {
         return [
             'workplace' => [
-                'company' => 'TitanHQ',
-                'position' => 'Senior Software Engineer'
+                'company' => null,
+                'position' => 'Software Engineer',
+                'job_type' => Jobs::CONTRACTOR
             ]
         ];
     }
@@ -30,6 +33,7 @@ class About extends Me
             Php::class,
             Laravel::class,
             Vuejs::class,
+            TypeScript::class,
             JavaScript::class,
             //Angular::class,
         ];
